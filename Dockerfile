@@ -1,7 +1,7 @@
 # Base Vagrant box
 
 FROM ubuntu:12.04
-MAINTAINER Fabio Rehm "fgrehm@gmail.com"
+MAINTAINER AnyBucket Project "info@anybucket.org"
 
 # Create and configure vagrant user
 RUN useradd --create-home -s /bin/bash vagrant
